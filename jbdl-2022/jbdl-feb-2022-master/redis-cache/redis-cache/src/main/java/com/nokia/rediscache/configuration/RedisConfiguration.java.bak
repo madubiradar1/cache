@@ -19,7 +19,7 @@ public class RedisConfiguration {
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
         redisStandaloneConfiguration.setHostName("redis-19137.c264.ap-south-1-1.ec2.cloud.redislabs.com");
         redisStandaloneConfiguration.setPort(19137);
-        redisStandaloneConfiguration.setPassword("*******************");
+        redisStandaloneConfiguration.setPassword("LcEFBc9OzJDM5TG0URUI5CQvSR6hMgpF");
         LettuceConnectionFactory lettuceConnectionFactory = new LettuceConnectionFactory(redisStandaloneConfiguration);
 
         return lettuceConnectionFactory;
